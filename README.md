@@ -47,7 +47,6 @@ To run this project, follow these steps:
 
 Click on a product to navigate to the details page.
 
-https://www.loom.com/share/5c4305cc495b43dc81c439982bca9a94?sid=031be37b-0e24-4b8c-8be7-130bbc090298
 
 ### Product Details Page:
 
@@ -56,7 +55,9 @@ Click the home button in the bottom navigation bar to return to the home page.
 
 ## Demo
 
-Click the play to see a demo of the app below.
+Click the play button to see a demo of the app below.
+
+https://www.loom.com/share/5c4305cc495b43dc81c439982bca9a94?sid=031be37b-0e24-4b8c-8be7-130bbc090298
 
 
 
