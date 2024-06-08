@@ -24,7 +24,7 @@ class ProductListPage extends StatelessWidget {
     Product(name: 'Laptop', description: 'Laptop is the most productive development tool', price: 2000, rating: 5),
     Product(name: 'Tablet', description: 'Tablet is the most useful device ever for meeting', price: 1500, rating: 3),
     Product(name: 'Pen Drive', description: 'Pen Drive is the most stylish storage device ever', price: 100, rating: 2),
-    // Add more products if needed
+    
   ];
 
   @override
@@ -32,13 +32,13 @@ class ProductListPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Product Navigation'),
-        backgroundColor: Colors.blue, // Set the background color of the navbar
+        backgroundColor: Colors.blue, 
       ),
       body: ListView.builder(
         itemCount: products.length,
         itemBuilder: (context, index) {
           return Card(
-            color: _getProductColor(products[index].name), // Set the card color based on the product
+            color: _getProductColor(products[index].name), 
             child: ListTile(
               title: Text(products[index].name, style: TextStyle(fontSize: 24, color: Colors.white)),
               subtitle: Column(
@@ -111,7 +111,7 @@ class ProductDetailsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(product.name),
-        backgroundColor: Colors.blue, // Set the background color of the navbar
+        backgroundColor: Colors.blue, 
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
